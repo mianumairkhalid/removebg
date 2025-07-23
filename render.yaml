@@ -1,0 +1,8 @@
+# render.yaml
+services:
+  - type: web
+    name: removebg
+    runtime: docker
+    port: 8000
+    env: python
+    plan: free
